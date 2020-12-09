@@ -282,5 +282,6 @@ d.addEventListener("DOMContentLoaded", function(event) {
     if(d.querySelector('.current-year')){
         d.querySelector('.current-year').textContent = new Date().getFullYear();
     }
+    
 
 });

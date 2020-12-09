@@ -385,6 +385,7 @@
 // Collapse
 .navbar-collapse-header {
     display: none;
+    
 }
 
 .navbar-collapse {
@@ -473,7 +474,35 @@
 
 .navbar-dashboard {
     border-radius: $border-radius;
+    position: sticky;
+    top:0;
+    width: 100%;
+
+    
+    
+    
+    
 }
+
+#topbar{
+
+    border-radius: $border-radius;
+
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
 
 .icon-notifications {
     .unread-notifications {
